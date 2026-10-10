@@ -1,0 +1,13 @@
+schema: '2.0'
+stages:
+  train:
+    cmd: python neural_network.py
+    deps:
+    - path: dataset.csv
+      hash: md5
+      md5: 35fba93c70034bc5cc6d2a8c46ea63fb
+      size: 3854
+    - path: neural_network.py
+      hash: md5
+      md5: 15a365dde3495248d357fdaedceabbaf
+      size: 3657
