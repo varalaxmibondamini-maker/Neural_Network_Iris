@@ -1,0 +1,4 @@
+[core]
+    remote = origin
+['remote "origin"']
+    url = https://dagshub.com/varalaxmibondamini/Neural_Network_Iris1.dvc
