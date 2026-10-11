@@ -11,3 +11,12 @@ stages:
       hash: md5
       md5: c214282fd2cc030339ca995784b9547d
       size: 5483
+    outs:
+    - path: iris_model_weights.npz
+      hash: md5
+      md5: ff4af86021d31ebe0a56accfe3a388f6
+      size: 7350
+    - path: iris_preprocessing.npz
+      hash: md5
+      md5: 081995b6f0210bfa60765a8ce16f8b96
+      size: 1025

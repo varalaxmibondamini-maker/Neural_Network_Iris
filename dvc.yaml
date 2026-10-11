@@ -1,6 +1,10 @@
+
 stages:
   train:
     cmd: python neural_network.py
     deps:
-    - dataset.csv
-    - neural_network.py
+      - dataset.csv
+      - neural_network.py
+    outs:
+      - iris_model_weights.npz
+      - iris_preprocessing.npz

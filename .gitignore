@@ -6,3 +6,12 @@ __pycache__/
 .env
 mlruns/
 /dataset.csv
+# MLflow local tracking data
+mlflow.db
+mlartifacts/
+mlruns/
+
+# Backup file
+neural_network_backup.py
+/iris_model_weights.npz
+/iris_preprocessing.npz
